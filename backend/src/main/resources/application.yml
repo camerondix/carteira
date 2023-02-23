@@ -1,0 +1,34 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://YOUR_HOST:YOUR_PORT/YOUR_DB_NAME
+    username: YOUR_USERNAME
+    password: YOUR_PASSWORD
+  jpa:
+    show-sql: false
+    open-in-view: false
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+        auto_quote_keyword: true
+        generate_statistics: false
+    hibernate:
+      ddl-auto: update
+  graphql:
+    graphiql:
+      enabled: false
+      path: /graphiql
+    datetime:
+      scalars:
+        zone-conversion-enabled: true
+    cors:
+      allowed-origins:
+        - YOUR_URL
+      allow-credentials: true
+plaid:
+  url: YOUR_URL
+  client-id: YOUR_CLIENT_ID
+  secret: YOUR_SECRET_KEY
+  tokens:
+    - ACCOUNT_TOKEN_1
+    - ACCOUNT_TOKEN_2

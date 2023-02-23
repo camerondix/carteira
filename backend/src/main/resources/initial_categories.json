@@ -1,0 +1,626 @@
+[
+    {
+        "name": "Dividends",
+        "description": "Dividends from investment accounts",
+        "parentName": "Income",
+        "icon": "BsWallet"
+    },
+    {
+        "name": "Interest Earned",
+        "description": "Income from interest on savings accounts",
+        "parentName": "Income",
+        "icon": "BsWallet"
+    },
+    {
+        "name": "Retirement Pension",
+        "description": "Income from pension payments",
+        "parentName": "Income",
+        "icon": "BsWallet"
+    },
+    {
+        "name": "Tax Refund",
+        "description": "Income from tax refunds",
+        "parentName": "Income",
+        "icon": "BsWallet"
+    },
+    {
+        "name": "Unemployment",
+        "description": "Income from unemployment benefits, including unemployment insurance and healthcare",
+        "parentName": "Income",
+        "icon": "BsWallet"
+    },
+    {
+        "name": "Wages",
+        "description": "Income from salaries, gig-economy work, and tips earned",
+        "parentName": "Income",
+        "icon": "BsCashCoin"
+    },
+    {
+        "name": "Other Income",
+        "description": "Other miscellaneous income, including alimony, social security, child support, and rental",
+        "parentName": "Income",
+        "icon": "BsWallet"
+    },
+    {
+        "name": "Cash Advances and Loans",
+        "description": "Loans and cash advances deposited into a bank account",
+        "parentName": "Transfer In",
+        "icon": "BsArrowLeftRight"
+    },
+    {
+        "name": "Deposit",
+        "description": "Cash, checks, and ATM deposits into a bank account",
+        "parentName": "Transfer In",
+        "icon": "BsArrowLeftRight"
+    },
+    {
+        "name": "From Investment and Retirement Funds",
+        "description": "Inbound transfers to an investment or retirement account",
+        "parentName": "Transfer In",
+        "icon": "BsGraphUp"
+    },
+    {
+        "name": "From Savings",
+        "description": "Inbound transfers to a savings account",
+        "parentName": "Transfer In",
+        "icon": "BsSafe2"
+    },
+    {
+        "name": "From Account",
+        "description": "General inbound transfers from another account",
+        "parentName": "Transfer In",
+        "icon": "BsArrowLeftRight"
+    },
+    {
+        "name": "Other Transfer In",
+        "description": "Other miscellaneous inbound transfers",
+        "parentName": "Transfer In",
+        "icon": "BsArrowLeftRight"
+    },
+    {
+        "name": "To Investment and Retirement Funds",
+        "description": "Transfers to an investment or retirement account",
+        "parentName": "Transfer Out",
+        "icon": "BsGraphUp"
+    },
+    {
+        "name": "To Savings",
+        "description": "Outbound transfers to savings accounts",
+        "parentName": "Transfer Out",
+        "icon": "BsSafe2"
+    },
+    {
+        "name": "Withdrawl",
+        "description": "Withdrawals from a bank account",
+        "parentName": "Transfer Out",
+        "icon": "BsArrowLeftRight"
+    },
+    {
+        "name": "To Account",
+        "description": "General outbound transfers to another account",
+        "parentName": "Transfer Out",
+        "icon": "BsArrowLeftRight"
+    },
+    {
+        "name": "Other Transfer Out",
+        "description": "Other miscellaneous outbound transfers",
+        "parentName": "Transfer Out",
+        "icon": "BsArrowLeftRight"
+    },
+    {
+        "name": "Car Payment",
+        "description": "Car loans and leases",
+        "parentName": "Loan Payments",
+        "icon": "BsTruck"
+    },
+    {
+        "name": "Credit Card Payment",
+        "description": "Payments to a credit card",
+        "parentName": "Loan Payments",
+        "icon": "BsCreditCard"
+    },
+    {
+        "name": "Personal Loan Payment",
+        "description": "Personal loans, including cash advances and buy now pay later repayments",
+        "parentName": "Loan Payments",
+        "icon": "BsCreditCard"
+    },
+    {
+        "name": "Mortgage Payment",
+        "description": "Payments on mortgages",
+        "parentName": "Loan Payments",
+        "icon": "BsHouse"
+    },
+    {
+        "name": "Student Loan Payment",
+        "description": "Payments on student loans",
+        "parentName": "Loan Payments",
+        "icon": "BsCreditCard"
+    },
+    {
+        "name": "Other Loan Payments",
+        "description": "Other miscellaneous debt payments",
+        "parentName": "Loan Payments",
+        "icon": "BsCreditCard"
+    },
+    {
+        "name": "ATM Fees",
+        "description": "Fees incurred for out-of-network ATMs",
+        "parentName": "Bank Fees",
+        "icon": "BsBank"
+    },
+    {
+        "name": "Foreign Transaction Fees",
+        "description": "Fees incurred on non-domestic transactions",
+        "parentName": "Bank Fees",
+        "icon": "BsCurrencyExchange"
+    },
+    {
+        "name": "Insufficient Funds",
+        "description": "Fees relating to insufficient funds",
+        "parentName": "Bank Fees",
+        "icon": "BsBank"
+    },
+    {
+        "name": "Interest Charge",
+        "description": "Fees incurred for interest on purchases, including not-paid-in-full or interest on cash advances",
+        "parentName": "Bank Fees",
+        "icon": "BsBank"
+    },
+    {
+        "name": "Overdraft Fees",
+        "description": "Fees incurred when an account is in overdraft",
+        "parentName": "Bank Fees",
+        "icon": "BsBank"
+    },
+    {
+        "name": "Other Bank Fees",
+        "description": "Other miscellaneous bank fees",
+        "parentName": "Bank Fees",
+        "icon": "BsBank"
+    },
+    {
+        "name": "Casinos and Gambling",
+        "description": "Gambling, casinos, and sports betting",
+        "parentName": "Entertainment",
+        "icon": "BsJoystick"
+    },
+    {
+        "name": "Music and Audio",
+        "description": "Digital and in-person music purchases, including music streaming services",
+        "parentName": "Entertainment",
+        "icon": "BsJoystick"
+    },
+    {
+        "name": "Events",
+        "description": "Purchases made at sporting events, music venues, concerts, museums, and amusement parks",
+        "parentName": "Entertainment",
+        "icon": "BsCardHeading"
+    },
+    {
+        "name": "TV and Movies",
+        "description": "In home movie streaming services and movie theaters",
+        "parentName": "Entertainment",
+        "icon": "BsTv"
+    },
+    {
+        "name": "Video Games",
+        "description": "Digital and in-person video game purchases",
+        "parentName": "Entertainment",
+        "icon": "BsJoystick"
+    },
+    {
+        "name": "Other Entertainment",
+        "description": "Other miscellaneous entertainment purchases, including night life and adult entertainment",
+        "parentName": "Entertainment",
+        "icon": "BsJoystick"
+    },
+    {
+        "name": "Alcohol",
+        "description": "Beer, Wine & Liquor Stores",
+        "parentName": "Food and Drink",
+        "icon": "BsCup"
+    },
+    {
+        "name": "Coffee",
+        "description": "Purchases at coffee shops or cafes",
+        "parentName": "Food and Drink",
+        "icon": "BsCup"
+    },
+    {
+        "name": "Fast Food",
+        "description": "Dining expenses for fast food",
+        "parentName": "Food and Drink",
+        "icon": "BsCupStraw"
+    },
+    {
+        "name": "Groceries",
+        "description": "Purchases for fresh produce and groceries, including farmers' markets",
+        "parentName": "Food and Drink",
+        "icon": "BsBasket"
+    },
+    {
+        "name": "Restaurant",
+        "description": "Dining expenses for restaurants, bars, gastropubs, and diners",
+        "parentName": "Food and Drink",
+        "icon": "BsShop"
+    },
+    {
+        "name": "Vending Machines",
+        "description": "Purchases made at vending machine operators",
+        "parentName": "Food and Drink",
+        "icon": "BsCupStraw"
+    },
+    {
+        "name": "Other Food and Drink",
+        "description": "Other miscellaneous food and drink, including desserts, juice bars, and delis",
+        "parentName": "Food and Drink",
+        "icon": "BsCupStraw"
+    },
+    {
+        "name": "Bookstores and Newsstands",
+        "description": "Books, magazines, and news",
+        "parentName": "General Merchandise",
+        "icon": "BsBook"
+    },
+    {
+        "name": "Clothing and Accessories",
+        "description": "Apparel, shoes, and jewelry",
+        "parentName": "General Merchandise",
+        "icon": "BsGem"
+    },
+    {
+        "name": "Convenience Stores",
+        "description": "Purchases at convenience stores",
+        "parentName": "General Merchandise",
+        "icon": "BsCart2"
+    },
+    {
+        "name": "Department Stores",
+        "description": "Retail stores with wide ranges of consumer goods, typically specializing in clothing and home goods",
+        "parentName": "General Merchandise",
+        "icon": "BsTags"
+    },
+    {
+        "name": "Discount Stores",
+        "description": "Stores selling goods at a discounted price",
+        "parentName": "General Merchandise",
+        "icon": "BsCart2"
+    },
+    {
+        "name": "Electronics",
+        "description": "Electronics stores and websites",
+        "parentName": "General Merchandise",
+        "icon": "BsPhone"
+    },
+    {
+        "name": "Gifts and Novelties",
+        "description": "Photo, gifts, cards, and floral stores",
+        "parentName": "General Merchandise",
+        "icon": "BsGift"
+    },
+    {
+        "name": "Office Supplies",
+        "description": "Stores that specialize in office goods",
+        "parentName": "General Merchandise",
+        "icon": "BsPrinter"
+    },
+    {
+        "name": "Online Marketplaces",
+        "description": "Multi-purpose e-commerce platforms such as Etsy, Ebay and Amazon",
+        "parentName": "General Merchandise",
+        "icon": "BsGlobe"
+    },
+    {
+        "name": "Pet Supplies",
+        "description": "Pet supplies and pet food",
+        "parentName": "General Merchandise",
+        "icon": "BsCart2"
+    },
+    {
+        "name": "Sporting Goods",
+        "description": "Sporting goods, camping gear, and outdoor equipment",
+        "parentName": "General Merchandise",
+        "icon": "BsDribbble"
+    },
+    {
+        "name": "Superstores",
+        "description": "Superstores such as Target and Walmart, selling both groceries and general merchandise",
+        "parentName": "General Merchandise",
+        "icon": "BsCart2"
+    },
+    {
+        "name": "Tobacco and Vape",
+        "description": "Purchases for tobacco and vaping products",
+        "parentName": "General Merchandise",
+        "icon": "BsCart2"
+    },
+    {
+        "name": "Other General Merchandise",
+        "description": "Other miscellaneous merchandise, including toys, hobbies, and arts and crafts",
+        "parentName": "General Merchandise",
+        "icon": "BsCart2"
+    },
+    {
+        "name": "Furniture",
+        "description": "Furniture, bedding, and home accessories",
+        "parentName": "Home Improvement",
+        "icon": "BsLamp"
+    },
+    {
+        "name": "Hardware",
+        "description": "Building materials, hardware stores, paint, and wallpaper",
+        "parentName": "Home Improvement",
+        "icon": "BsPaintBucket"
+    },
+    {
+        "name": "Repair and Maintenance",
+        "description": "Plumbing, lighting, gardening, and roofing",
+        "parentName": "Home Improvement",
+        "icon": "BsHammer"
+    },
+    {
+        "name": "Security",
+        "description": "Home security system purchases",
+        "parentName": "Home Improvement",
+        "icon": "BsCameraVideo"
+    },
+    {
+        "name": "Other Home Improvement",
+        "description": "Other miscellaneous home purchases, including pool installation and pest control",
+        "parentName": "Home Improvement",
+        "icon": "BsHammer"
+    },
+    {
+        "name": "Dental Care",
+        "description": "Dentists and general dental care",
+        "parentName": "Medical",
+        "icon": "BsHeart"
+    },
+    {
+        "name": "Eye Care",
+        "description": "Optometrists, contacts, and glasses stores",
+        "parentName": "Medical",
+        "icon": "BsHeart"
+    },
+    {
+        "name": "Nursing Care",
+        "description": "Nursing care and facilities",
+        "parentName": "Medical",
+        "icon": "BsHeart"
+    },
+    {
+        "name": "Pharmacies and Supplements",
+        "description": "Pharmacies and nutrition shops",
+        "parentName": "Medical",
+        "icon": "BsHeart"
+    },
+    {
+        "name": "Primary Care",
+        "description": "Doctors and physicians",
+        "parentName": "Medical",
+        "icon": "BsHeart"
+    },
+    {
+        "name": "Veterinary Services",
+        "description": "Prevention and care procedures for animals",
+        "parentName": "Medical",
+        "icon": "BsHeart"
+    },
+    {
+        "name": "Other Medical",
+        "description": "Other miscellaneous medical, including blood work, hospitals, and ambulances",
+        "parentName": "Medical",
+        "icon": "BsHeart"
+    },
+    {
+        "name": "Gyms and Fitness Centers",
+        "description": "Gyms, fitness centers, and workout classes",
+        "parentName": "Personal Care",
+        "icon": "BsScissors"
+    },
+    {
+        "name": "Hair and Beauty",
+        "description": "Manicures, haircuts, waxing, spa/massages, and bath and beauty products",
+        "parentName": "Personal Care",
+        "icon": "BsScissors"
+    },
+    {
+        "name": "Laundry and Dry Cleaning",
+        "description": "Wash and fold, and dry cleaning expenses",
+        "parentName": "Personal Care",
+        "icon": "BsBasket2"
+    },
+    {
+        "name": "Other Personal Care",
+        "description": "Other miscellaneous personal care, including mental health apps and services",
+        "parentName": "Personal Care",
+        "icon": "BsScissors"
+    },
+    {
+        "name": "Accounting and Financial Planning",
+        "description": "Financial planning, and tax and accounting services",
+        "parentName": "General Services",
+        "icon": "BsCoin"
+    },
+    {
+        "name": "Automotive",
+        "description": "Oil changes, car washes, repairs, and towing",
+        "parentName": "General Services",
+        "icon": "BsTruckFlatbed"
+    },
+    {
+        "name": "Childcare",
+        "description": "Babysitters and daycare",
+        "parentName": "General Services",
+        "icon": "BsTools"
+    },
+    {
+        "name": "Consulting and Legal",
+        "description": "Consulting and legal services",
+        "parentName": "General Services",
+        "icon": "BsTools"
+    },
+    {
+        "name": "Education",
+        "description": "Elementary, high school, professional schools, and college tuition",
+        "parentName": "General Services",
+        "icon": "BsBookshelf"
+    },
+    {
+        "name": "Insurance",
+        "description": "Insurance for auto, home, and healthcare",
+        "parentName": "General Services",
+        "icon": "BsTools"
+    },
+    {
+        "name": "Postage and Shipping",
+        "description": "Mail, packaging, and shipping services",
+        "parentName": "General Services",
+        "icon": "BsMailbox"
+    },
+    {
+        "name": "Storage",
+        "description": "Storage services and facilities",
+        "parentName": "General Services",
+        "icon": "BsServer"
+    },
+    {
+        "name": "Other General Services",
+        "description": "Other miscellaneous services, including advertising and cloud storage",
+        "parentName": "General Services",
+        "icon": "BsTools"
+    },
+    {
+        "name": "Donations",
+        "description": "Charitable, political, and religious donations",
+        "parentName": "Government and Nonprofit",
+        "icon": "BsPiggyBank"
+    },
+    {
+        "name": "Government Departments and Agencies",
+        "description": "Government departments and agencies, such as driving licences, and passport renewal",
+        "parentName": "Government and Nonprofit",
+        "icon": "BsCardText"
+    },
+    {
+        "name": "Tax Payment",
+        "description": "Tax payments, including income and property taxes",
+        "parentName": "Government and Nonprofit",
+        "icon": "BsBuilding"
+    },
+    {
+        "name": "Other Government and Nonprofit",
+        "description": "Other miscellaneous government and non-profit agencies",
+        "parentName": "Government and Nonprofit",
+        "icon": "BsBuilding"
+    },
+    {
+        "name": "Bikes and Scooters",
+        "description": "Bike and scooter rentals",
+        "parentName": "Transportation",
+        "icon": "BsBicycle"
+    },
+    {
+        "name": "Gas",
+        "description": "Purchases at a gas station",
+        "parentName": "Transportation",
+        "icon": "BsBicycle"
+    },
+    {
+        "name": "Parking",
+        "description": "Parking fees and expenses",
+        "parentName": "Transportation",
+        "icon": "BsBicycle"
+    },
+    {
+        "name": "Public Transit",
+        "description": "Public transportation, including rail and train, buses, and metro",
+        "parentName": "Transportation",
+        "icon": "BsBicycle"
+    },
+    {
+        "name": "Ride Shares",
+        "description": "Taxi and ride share services",
+        "parentName": "Transportation",
+        "icon": "BsBicycle"
+    },
+    {
+        "name": "Tolls",
+        "description": "Toll expenses",
+        "parentName": "Transportation",
+        "icon": "BsBicycle"
+    },
+    {
+        "name": "Other Transportation",
+        "description": "Other miscellaneous transportation expenses",
+        "parentName": "Transportation",
+        "icon": "BsBicycle"
+    },
+    {
+        "name": "Flights",
+        "description": "Airline expenses",
+        "parentName": "Travel",
+        "icon": "BsCloud"
+    },
+    {
+        "name": "Lodging",
+        "description": "Hotels, motels, and hosted accommodation such as Airbnb",
+        "parentName": "Travel",
+        "icon": "BsBuilding"
+    },
+    {
+        "name": "Rental Cars",
+        "description": "Rental cars, charter buses, and trucks",
+        "parentName": "Travel",
+        "icon": "BsTruck"
+    },
+    {
+        "name": "Other Travel",
+        "description": "Other miscellaneous travel expenses",
+        "parentName": "Travel",
+        "icon": "BsCompass"
+    },
+    {
+        "name": "Gas and Electricity",
+        "description": "Gas and electricity bills",
+        "parentName": "Rent and Utilities",
+        "icon": "BsPlug"
+    },
+    {
+        "name": "Internet and Cable",
+        "description": "Internet and cable bills",
+        "parentName": "Rent and Utilities",
+        "icon": "BsWifi"
+    },
+    {
+        "name": "Rent",
+        "description": "Rent payment",
+        "parentName": "Rent and Utilities",
+        "icon": "BsHouseDoor"
+    },
+    {
+        "name": "Sewage and Waste",
+        "description": "Sewage and garbage disposal bills",
+        "parentName": "Rent and Utilities",
+        "icon": "BsTrash"
+    },
+    {
+        "name": "Telephone",
+        "description": "Cell phone bills",
+        "parentName": "Rent and Utilities",
+        "icon": "BsTelephone"
+    },
+    {
+        "name": "Water",
+        "description": "Water bills",
+        "parentName": "Rent and Utilities",
+        "icon": "BsDroplet"
+    },
+    {
+        "name": "Other Rent and Utilities",
+        "description": "Other miscellaneous utility bills",
+        "parentName": "Rent and Utilities",
+        "icon": "BsPlug"
+    }
+]

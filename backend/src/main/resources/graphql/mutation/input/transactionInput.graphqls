@@ -1,0 +1,6 @@
+input TransactionInput {
+    id: ID!
+    name: String!
+    timestamp: LocalDateTime!
+    categoryId: ID!
+}

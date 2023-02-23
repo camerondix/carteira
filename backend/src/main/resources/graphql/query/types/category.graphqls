@@ -1,0 +1,8 @@
+type Category {
+    id: ID!
+    name: String!
+    description: String
+    icon: String!
+    parent: Category
+    children: [Category!]!
+}

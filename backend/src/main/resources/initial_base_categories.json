@@ -1,0 +1,98 @@
+[
+    {
+        "name": "Income",
+        "description": "",
+        "parentName": null,
+        "icon": "BsWallet"
+    },
+    {
+        "name": "Transfer In",
+        "description": "",
+        "parentName": null,
+        "icon": "BsArrowLeftRight"
+    },
+    {
+        "name": "Transfer Out",
+        "description": "",
+        "parentName": null,
+        "icon": "BsArrowLeftRight"
+    },
+    {
+        "name": "Loan Payments",
+        "description": "",
+        "parentName": null,
+        "icon": "BsCreditCard"
+    },
+    {
+        "name": "Bank Fees",
+        "description": "",
+        "parentName": null,
+        "icon": "BsBank"
+    },
+    {
+        "name": "Entertainment",
+        "description": "",
+        "parentName": null,
+        "icon": "BsJoystick"
+    },
+    {
+        "name": "Food and Drink",
+        "description": "",
+        "parentName": null,
+        "icon": "BsCupStraw"
+    },
+    {
+        "name": "General Merchandise",
+        "description": "",
+        "parentName": null,
+        "icon": "BsCart2"
+    },
+    {
+        "name": "Home Improvement",
+        "description": "",
+        "parentName": null,
+        "icon": "BsHammer"
+    },
+    {
+        "name": "Medical",
+        "description": "",
+        "parentName": null,
+        "icon": "BsHeart"
+    },
+    {
+        "name": "Personal Care",
+        "description": "",
+        "parentName": null,
+        "icon": "BsScissors"
+    },
+    {
+        "name": "General Services",
+        "description": "",
+        "parentName": null,
+        "icon": "BsTools"
+    },
+    {
+        "name": "Government and Nonprofit",
+        "description": "",
+        "parentName": null,
+        "icon": "BsBuilding"
+    },
+    {
+        "name": "Transportation",
+        "description": "",
+        "parentName": null,
+        "icon": "BsBicycle"
+    },
+    {
+        "name": "Travel",
+        "description": "",
+        "parentName": null,
+        "icon": "BsCompass"
+    },
+    {
+        "name": "Rent and Utilities",
+        "description": "",
+        "parentName": null,
+        "icon": "BsPlug"
+    }
+]

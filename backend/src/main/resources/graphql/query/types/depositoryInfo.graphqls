@@ -1,0 +1,4 @@
+type DepositoryInfo {
+    routingNumber: String
+    accountNumber: String
+}

@@ -1,0 +1,10 @@
+type CreditInfo {
+    isOverdue: Boolean
+    lastPaymentAmount: Float
+    lastPaymentDate: LocalDate
+    lastStatementDate: LocalDate
+    lastStatementBalance: Float
+    minimumPayment: Float
+    nextPaymentDueDate: LocalDate
+    aprs: [Apr!]!
+}

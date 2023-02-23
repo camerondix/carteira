@@ -1,0 +1,6 @@
+type Apr {
+    percentage: Float!
+    type: AprType!
+    balanceSubjectToApr: Float
+    interestChargeAmount: Float
+}

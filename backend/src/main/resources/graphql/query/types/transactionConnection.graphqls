@@ -1,0 +1,9 @@
+type TransactionConnection {
+    pageInfo: PageInfo!
+    edges: [TransactionEdge!]!
+}
+
+type TransactionEdge {
+    cursor: String!
+    node: Transaction!
+}

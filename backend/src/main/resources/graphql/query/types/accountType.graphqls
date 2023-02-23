@@ -1,0 +1,9 @@
+enum AccountType{
+    INVESTMENT
+    CREDIT
+    CASH
+    LOAN
+    BROKERAGE
+    OTHER
+    ENUM_UNKNOWN
+}

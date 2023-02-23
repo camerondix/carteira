@@ -1,0 +1,8 @@
+type Location {
+    address: String
+    city: String
+    region: String
+    postalCode: String
+    latitude: Float
+    longitude: Float
+}

@@ -1,0 +1,50 @@
+services:
+  backend:
+    build: backend
+    restart: always
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://db:5432/carteira
+      - SPRING_DATASOURCE_USERNAME=carteira
+      - SPRING_DATASOURCE_PASSWORD=<@R+31r@
+      - SPRING_GRAPHQL_CORS_ALLOWCREDENTIALS=true
+      - SPRING_GRAPHQL_CORS_ALLOWEDORIGINS_0=YOUR_URL
+      - PLAID_URL=PLAID_URL
+      - PLAID_CLIENTID=PLAID_CLIENTID
+      - PLAID_SECRET=PLAID_SECRET
+      - PLAID_TOKENS_0=PLAID_TOKEN
+    networks:
+      - react-spring
+      - spring-postgres
+    depends_on:
+      - db
+    ports:
+      - 8880:8080
+  db:
+    image: postgres
+    restart: always
+    environment:
+      - POSTGRES_USER=carteira
+      - POSTGRES_PASSWORD=<@R+31r@
+      - POSTGRES_DB=carteira
+    networks:
+      - spring-postgres
+    volumes:
+      - db:/var/lib/postgresql/data
+  frontend:
+    build:
+      context: frontend
+      args:
+        - REACT_APP_GRAPHQL_URL=YOUR_URL
+        - REACT_APP_APOLLO_CLIENT_CREDENTIALS=include
+    restart: always
+    ports:
+      - 3800:80
+    networks:
+      - react-spring
+    depends_on:
+      - backend
+networks:
+  react-spring:
+  spring-postgres:
+volumes:
+  db:

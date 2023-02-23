@@ -1,0 +1,10 @@
+input LocationInput{
+    transactionId: ID!
+    merchantName: String
+    address: String
+    city: String
+    region: String
+    postalCode: String
+    latitude: Float
+    longitude: Float
+}

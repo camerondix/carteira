@@ -1,0 +1,6 @@
+enum AprType {
+    BALANCE_TRANSFER_APR
+    CASH_APR
+    PURCHASE_APR
+    SPECIAL
+}

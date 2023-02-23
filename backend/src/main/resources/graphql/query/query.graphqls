@@ -1,0 +1,9 @@
+type Query {
+    account(id: ID!): Account!
+    accounts: [Account!]!
+    balance(id: ID!): Balance!
+    category(id: ID!): Category!
+    categories: [Category!]!
+    transaction(id: ID!): Transaction!
+    transactions(first: Int!, after: String): TransactionConnection!
+}

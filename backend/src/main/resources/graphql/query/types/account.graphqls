@@ -1,0 +1,13 @@
+type Account {
+    id: ID!
+    externalId: String
+    officialName: String!
+    name: String!
+    type: AccountType!
+    subtype: AccountSubtype!
+    mask: String
+    error: String
+    currentBalance: Balance
+    depositoryInfo: DepositoryInfo!
+    creditInfo: CreditInfo!
+}

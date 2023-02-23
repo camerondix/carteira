@@ -1,0 +1,8 @@
+type Balance {
+    id: ID!
+    account: Account!
+    timestamp: LocalDateTime!
+    current: Float
+    available: Float
+    limit: Float
+}

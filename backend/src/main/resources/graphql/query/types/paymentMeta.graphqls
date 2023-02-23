@@ -1,0 +1,10 @@
+type PaymentMeta {
+    referenceNumber: String
+    ppdId: String
+    payee: String
+    byOrderOf: String
+    payer: String
+    method: String
+    processor: String
+    reason: String
+}

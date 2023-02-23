@@ -1,0 +1,6 @@
+type Mutation{
+    updateAccount(input: AccountInput!): Account!
+    updateTransaction(input: TransactionInput!): Transaction!
+    updateLocation(input: LocationInput!): Transaction!
+    updatePaymentMeta(input: PaymentMetaInput!): Transaction!
+}

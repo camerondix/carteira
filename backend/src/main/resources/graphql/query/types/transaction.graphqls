@@ -1,0 +1,13 @@
+type Transaction {
+    id: ID!
+    account: Account!
+    externalId: String
+    location: Location!
+    paymentMeta: PaymentMeta!
+    name: String!
+    amount: Float!
+    timestamp: LocalDateTime!
+    isPending: Boolean
+    merchantName: String
+    category: Category!
+}

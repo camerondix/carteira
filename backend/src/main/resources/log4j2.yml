@@ -1,0 +1,20 @@
+Configuration:
+  status: warn
+  Appenders:
+    Console:
+      name: Console
+      target: SYSTEM_OUT
+      PatternLayout:
+        Pattern: "%d{HH:mm:ss.SSS} [%t] %highlight{%-5level} (%F:%L) - %msg%n"
+  Loggers:
+    Logger:
+      - name: com.camerondix.carteira
+        additivity: false
+        level: info
+        AppenderRef:
+          ref: Console
+    Root:
+      additivity: false
+      level: warn
+      AppenderRef:
+        ref: Console
