@@ -20,9 +20,9 @@ function UpdateTransactionCategoryPlaceholder() {
                     </div>
                     <div className="w-6/12">
                         <p>
-                            <Placeholder length={30} />
+                            <Placeholder length={10} />
                             <br />
-                            <Placeholder length={25} />
+                            <Placeholder length={10} />
                         </p>
                     </div>
                 </div>

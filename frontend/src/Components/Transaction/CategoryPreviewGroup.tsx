@@ -20,8 +20,8 @@ function CategoryPreviewGroup({ groupCategories, groupName, open, select }: Prop
     const categories = useFragment(CategoryPreviewGroupFragment, groupCategories);
 
     return (
-        <details className="p-3 bg-elevatedColor dark:bg-elevatedColorDark rounded-xl open:bg-baseColor dark:open:bg-baseColorDark hover:bg-lightPrimary dark:hover:bg-darkPrimaryDark open:hover:bg-transparent" open={open}>
-            <summary className="flex flex-row px-3 text-xl mb-2 justify-between cursor-pointer text-left">
+        <details className="p-3 my-auto bg-elevatedColor dark:bg-elevatedColorDark rounded-xl open:bg-baseColor dark:open:bg-baseColorDark" open={open}>
+            <summary className="flex flex-row px-3 text-xl my-auto justify-between cursor-pointer text-left hover:text-primary dark:hover:text-primaryDark ">
                 <summary>{groupName}</summary>
             </summary>
             <div className="w-full rounded-xl bg-elevatedColor dark:bg-elevatedColorDark">

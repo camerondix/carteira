@@ -31,7 +31,7 @@ function Accounts() {
 
     return (
         <div className="container mx-auto">
-            <div className="flex min-h-screen flex-col p-4 md:mx-20 lg:mx-40 xl:mx-80">
+            <div className="flex min-h-screen flex-col sm:p-4 md:mx-20 lg:mx-40 xl:mx-80">
                 {
                     (error) ?
                         <Error message={error.message} />

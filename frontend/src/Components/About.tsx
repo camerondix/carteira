@@ -5,14 +5,10 @@ import { AccountType } from "../gql/generated/graphql"
 import AccountBalanceDisplay from "./Account/AccountBalanceDisplay"
 import EnumDisplay from "./Shared/EnumDisplay"
 import MoneyValue from "./Shared/MoneyValue"
-import ThemeToggle from "./Shared/ThemeToggle"
 
 function About() {
     return (
         <div className="container mx-auto">
-            <div className="absolute right-4 md:right-8 top-20">
-                <ThemeToggle />
-            </div>
             <div className="flex min-h-screen flex-col p-4 md:mx-20 lg:mx-40 xl:mx-80">
                 <h1 className="text-5xl text-center my-3">Check out Carteira</h1>
                 <h2 className="text-3xl text-center my-2 text-graySecondary dark:text-graySecondaryDark">a self-hosted personal finance web application</h2>

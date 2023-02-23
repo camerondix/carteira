@@ -46,7 +46,7 @@ function ThemeToggle() {
     });
 
     return (
-        <Switch checked={theme === Theme.dark} onChange={() => theme === Theme.dark ? setTheme(Theme.light) : setTheme(Theme.dark)} className="relative inline-flex h-6 w-11 items-center rounded-full bg-lightPrimary dark:bg-lightPrimaryDark">
+        <Switch checked={theme === Theme.dark} onChange={() => theme === Theme.dark ? setTheme(Theme.light) : setTheme(Theme.dark)} className="relative inline-flex h-6 w-11 items-center rounded-full bg-primary dark:bg-primaryDark">
             <span className={`${theme === Theme.dark ? 'translate-x-6' : 'translate-x-1'} inline-block h-4 w-4 transform rounded-full transition text-superLightPrimary dark:text-superLightPrimaryDark`}>
                 <BsMoonFill className="dark:h-4 dark:w-4 h-0 w-0" />
                 <BsSunFill className="h-4 w-4 dark:h-0 dark:w-0" />
