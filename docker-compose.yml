@@ -38,7 +38,7 @@ services:
     networks:
       - spring-postgres
     volumes:
-      - db:/var/lib/postgresql/data
+      - ${DB_VOLUME}:/var/lib/postgresql/data
   frontend:
     build:
       context: frontend
@@ -55,5 +55,3 @@ services:
 networks:
   react-spring:
   spring-postgres:
-volumes:
-  db:
