@@ -51,6 +51,9 @@ public class PlaidService {
 
         var tokens = plaidConfiguration.getTokens();
         for (var token : tokens) {
+            if (token.isBlank()) {
+                continue;
+            }
             CompletableFuture.runAsync(() -> {
                 try {
                     var item = getOrCreateByAccessToken(token);
